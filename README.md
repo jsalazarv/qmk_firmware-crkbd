@@ -34,7 +34,7 @@ cd ~/qmk_firmware/keyboards/crkbd/keymaps
 clone this project 
 
 ```
-git clone https://github.com/esalazarv/qmk_firmware-crkbd.git corneKeyboard
+git clone https://github.com/jsalazarv/qmk_firmware-crkbd.git corneKeyboard
 ```
 
 ### Compile Firmware
