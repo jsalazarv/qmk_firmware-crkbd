@@ -34,19 +34,19 @@ cd ~/qmk_firmware/keyboards/crkbd/keymaps
 clone this project
 
 ```
-git clone https://github.com/esalazarv/qmk_firmware-crkbd.git esalazarv
+git clone https://github.com/jsalazarv/qmk_firmware-crkbd.git corneKeyboard
 ```
 
 ### Compile Firmware
 
-Run following command to build your custom firmware, replace `esalazarv` if you cloned this repo with another dirname in your
+Run following command to build your custom firmware, replace `corneKeyboard` if you cloned this repo with another dirname in your
 `~/qmk_firmware/keyboards/crkbd/keymaps` directory
 
 ```sh
-qmk compile -kb crkbd -km esalazarv
+qmk compile -kb crkbd -km corneKeyboard
 ```
 
-It will create a new `crkbd_rev1_esalazarv.hex` file in your `~/qmk_firmware` directory
+It will create a new `crkbd_rev1_corneKeyboard.hex` file in your `~/qmk_firmware` directory
 
 then you can use that firmware to configure your keyboard using `qmk` or `QMK Toolbox` you can download it [here](https://github.com/qmk/qmk_toolbox/releases)
 
